@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayerandPosition</class>
+ <widget class="QWidget" name="PlayerandPosition">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>977</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="soccerField">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>781</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textInfo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>781</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;
+border-radius: 20px;</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:24pt; font-weight:700; text-decoration: underline;&quot;&gt;Players and Positions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt;&quot;&gt;Below there is a pitch with all the normal positions that a team might play during a match along with the numbers that typically refer to each of those positions. You can hover over all the positions to learn more about them!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>520</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Right Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the right back. It is responsible for covering the right of the field defensively. The goal of the right back is to stop attacking left sided players on the opposition team as well as contribute offensively by running up the flanks. Alternatively, teams can play an inverted right back, where, when on offense, the player tucks into midfield to become an extra midfielder.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>RB(2)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>410</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Center Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;These are your central defenders. They are responsible for ensuring that the opposing attackers cannot get good quality shots. They must be strong and ideally tall so they can be dominant in the air and strong defensively to lock down opposing strikers and wingers.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CB(5)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>290</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Center Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;These are your central defenders. They are responsible for ensuring that the opposing attackers cannot get good quality shots. They must be strong and ideally tall so they can be dominant in the air and strong defensively to lock down opposing strikers and wingers.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CB(4)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Left Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the left back. It is responsible for covering the left of the field defensively. The goal of the left back is to stop attacking left sided players on the opposition team as well as contribute offensively by running up the flanks. Alternatively, teams can play an inverted left back, where, when on offense, the player tucks into midfield to become an extra midfielder.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>LB(3)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>520</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Right Wing Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the right wing back. They are typically played alongside 3 center backs with a extremely compressed midfield. Therefore, their role is to stay exclusively on the right flank of the field and support both offensively and defensively. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>RWB</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Left Wing Back&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the left wing back. They are typically played alongside 3 center backs with a extremely compressed midfield. Therefore, their role is to stay exclusively on the left flank of the field and support both offensively and defensively.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>LWB</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>360</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Central Defensive Midfielder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The central defensive midfielder positionally stays directly in front of the center backs. They are responsible for dealing with attacks down the center of the field and not allowing the opposing midfield to have time and space to make plays in the midfield. They are there to disrupt opposing attacks. In some defensive systems, the CDM will tuck into the back line and become an additional center back&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CDM(6)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>290</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Central Midfielder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The central midfielder is the conductor of the team. They are responsible for moving the ball from the defense to the offense. A good CM will find key passes that enable to offense to break down the opposition defense. They also stay near the top of the box on offense to either shoot, or move the ball quickly. Central midfielders also need to get back on defense and disrupt the midfield flow of the opposition team. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CM(8)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>360</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Central Attacking Midfield&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the central attacking midfielder, or CAM. The CAM plays just behind the strikers and is often the main playmaker on the team. Their job is to create scoring chances by making smart passes, quick moves, and finding space between the opposition’s midfield and defense. On offense, they stay near the edge of the box to shoot or set up teammates. While their focus is attack, CAMs also press high to win the ball back and disrupt the opponent’s build-up play.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>CAM(10)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>360</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Striker / Center Forward&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;The striker is the most forward attacker on the team. They are played in two primarilty different ways. 1) This is a pure goal scoring number 9. They are there to score goals, and make passes that let them score goals. These are typically played by fast, tall, or physical strikers who can out perform the center backs defending them. 2) This is whats known as a center forward or false 9. These players are still very focused on scoring goals, but they also focus on being a creator and presence up top that links up the play with the rest of the team.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>ST(9)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>520</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Right Winger&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the right winger. They play high and wide on the right side of the field and are responsible for creating chances in the attack. A traditional right winger stays near the sideline, using speed and dribbling to get past defenders and cross the ball into the box. Some teams use inverted wingers, where a right-footed player is replaced by a left-footed one on the right side. These players cut inside to shoot or combine through the middle instead of crossing. Right wingers must be quick, creative, and able to stretch the defense to open up space for others.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>RW(7)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>200</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Left Winger&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the left winger. They play high and wide on the left side of the field and are responsible for creating chances in the attack. A traditional left winger stays near the sideline, using speed and dribbling to get past defenders and cross the ball into the box. Some teams use inverted wingers, where a left-footed player is replaced by a right-footed one on the left side. These players cut inside to shoot or combine through the middle instead of crossing. left wingers must be quick, creative, and able to stretch the defense to open up space for others.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>LW(11)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>520</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Right Midfielder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the right midfielder, or RM. They play on the right side of the midfield and balance both attacking and defensive duties. A right midfielder supports the attack by passing, crossing, or carrying the ball up the wing, but they also track back to help defend against opposing wingers. Some RMs play wide and send in crosses, while others drift inside to link up with central players. Their positioning depends on the team’s formation, but overall, a good RM needs stamina, awareness, and the ability to contribute at both ends of the pitch.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>RM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>190</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; text-decoration: underline;&quot;&gt;Left Midfielder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the left midfielder, or LM. They play on the left side of the midfield and balance both attacking and defensive duties. A left midfielder supports the attack by passing, crossing, or carrying the ball up the wing, but they also track back to help defend against opposing wingers. Some LMs play wide and send in crosses, while others drift inside to link up with central players.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>LM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Goalkeeper&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;This is the goalkeeper, or GK. They are the last line of defense and the only player allowed to use their hands in the box. A goalkeeper’s main job is to stop shots and prevent goals by diving, catching crosses, and making quick reflex saves—this is known as a shot-stopper. Some teams use a sweeper keeper, who plays farther off the goal line and helps defend by clearing through balls and acting like an extra defender. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: lightgreen;
+    border-radius: 15px;  /* Half of the width/height to make it circular (15px if width/height is 30px) */
+	color: black;
+	font-size: 20px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>GK(1)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
